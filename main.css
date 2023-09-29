@@ -1,0 +1,47 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(50, 45, 45);
+}
+
+
+.gallery-title {
+    color: rgb(202, 202, 202);
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.gallery-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    border: 2px solid #a69f70;
+}
+
+.image-wrapper {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#gallery-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.navigation {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
